@@ -1,0 +1,16 @@
+{
+  "name": "collaborate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zean7760/Collaborate",
+  "author": "zean7760 <zean7760@colrado.edu>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next"
+  },
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
