@@ -4,19 +4,19 @@
 /*
 * Author Name: TheMashaBrand
 * Author URI: http://themeforest.net/user/themashabrand
-* Website: http://www.themashabrand.com 
+* Website: http://www.themashabrand.com
 */
 
 /* ------------------------------------------------------------------- */
 /* Table of Contents
----------------------------------------------------------------------- 
+----------------------------------------------------------------------
 1. Reset & Basics                   - Line 28
-2. Base Styles                      
+2. Base Styles
     - Typogrphy Section             - Line 85
 	- Links Section                 - Line 127
 	- Lists Section                 - Line 157
 	- Kafe Button Section           - Line 176
-3. Job List 
+3. Job List
     - Category List Section         - Line 297
 	- Search Section                - Line 336
 	- Job Section                   - Line 394
@@ -25,7 +25,7 @@
 4. Sidebar - Affix Section          - Line 638
 5. Form Signup                      - Line 669
 
----------------------------------------------------------------------- */ 
+---------------------------------------------------------------------- */
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
@@ -35,9 +35,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; 
+  vertical-align: baseline;
 }
-	
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 blockquote, q {
-  quotes: none; 
+  quotes: none;
 }
 
 blockquote:before, blockquote:after,
@@ -58,7 +58,7 @@ q:before, q:after {
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; 
+  border-spacing: 0;
 }
 
 .no-select {
@@ -66,7 +66,7 @@ table {
   -o-user-select:none;
   -moz-user-select: none;
   -khtml-user-select: none;
-  -webkit-user-select: none; 
+  -webkit-user-select: none;
 }
 
 /* ==========================================================================
@@ -88,8 +88,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
-  font-weight: inherit; 
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
 }
 
 h1 { font-size: 30px; line-height: 54px; }
@@ -99,7 +99,7 @@ h4 { font-size: 18px; line-height: 36px; }
 h5 { font-size: 16px; line-height: 28px; }
 h6 { font-size: 14px; line-height: 24px; }
 
-p { 
+p {
   font-family: 'Varela Round', sans-serif;
   line-height: 24px;
   margin: 0;
@@ -113,7 +113,7 @@ em { font-style: italic; }
 strong { font-weight: 700; color: #333; }
 small { font-size: 80%; }
 
-hr.mint { 
+hr.mint {
   background: #16A085;
   border: 0;
   width: 100px;
@@ -124,15 +124,15 @@ hr.mint {
 /* ------------------------------------------------------------------- */
 /* Links
 ---------------------------------------------------------------------- */
-a { 
-  color: #fff; 
-  text-decoration: none; 
-  outline: 0; 
+a {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
   -webkit-transition:0.5s all ease;
   -moz-transition:0.5s all ease;
   -o-transition:0.5s all ease;
   -ms-transition:0.5s all ease;
-  transition:0.5s all ease; 
+  transition:0.5s all ease;
 }
 
 a:hover,
@@ -184,20 +184,16 @@ li p { line-height: 24px; }
   cursor: pointer;
   background-image: none;
   border: 1px solid transparent;
- 
+
   border-radius: 4px;
- 
+
   khtml-user-select: none;
   webkit-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
- 
-  -moz-transition: background, 0.3s;
-  -0-transition: background, 0.3s;
-  webkit-transition: background, 0.3s;
-  transition: background, 0.3s;
+
 }
 
 .kafe-btn-default{
@@ -243,11 +239,11 @@ li p { line-height: 24px; }
   font-weight: 700;
   font-size: 14px;
 
-  
+
   padding: 13px 31px;
   color: #fff !important;
-  background: #00C4CF; 
-  letter-spacing: 1px; 
+  background: #00C4CF;
+  letter-spacing: 1px;
 }
 
 
@@ -257,8 +253,8 @@ li p { line-height: 24px; }
   font-size: 12px;
   padding: 6px 11px;
   color: #fff;
-  background: #00C4CF; 
-  letter-spacing: 1px; 
+  background: #00C4CF;
+  letter-spacing: 1px;
 }
 
 .kafe-btn-danger{
@@ -266,11 +262,11 @@ li p { line-height: 24px; }
   font-weight: 700;
   font-size: 14px;
 
-  
+
   padding: 13px 31px;
   color: #fff !important;
-  background: #FA5050; 
-  letter-spacing: 1px; 
+  background: #FA5050;
+  letter-spacing: 1px;
 }
 
 .kafe-btn-danger-small{
@@ -279,8 +275,8 @@ li p { line-height: 24px; }
   font-size: 12px;
   padding: 6px 11px;
   color: #fff;
-  background: #FA5050; 
-  letter-spacing: 1px; 
+  background: #FA5050;
+  letter-spacing: 1px;
 }
 
 .kafe-btn-default:hover, .kafe-btn-default-new:hover {
@@ -290,19 +286,19 @@ li p { line-height: 24px; }
 }
 .kafe-btn-danger:hover, .kafe-btn-danger-small:hover {
   color: #fff !important;
-  background: #ba3434; 
+  background: #ba3434;
   text-decoration: none;
 }
 
 .kafe-btn-mint:hover {
   color: #fff !important;
-  background: #019da5; 
+  background: #019da5;
   text-decoration: none;
 }
 
 .kafe-btn-mint-small:hover {
   color: #fff !important;
-  background: #019da5; 
+  background: #019da5;
   text-decoration: none;
 }
 
